@@ -1,6 +1,6 @@
-# flutter_finance_app
+# Flutter Finance App
 
-A new Flutter project.
+A basic Flutter application I wrote in order to teach myself how to use new technologies listed.
 
 ## Getting Started
 
