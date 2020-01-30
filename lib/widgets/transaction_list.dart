@@ -27,11 +27,11 @@ class TransactionList extends StatelessWidget {
                   ),
                   padding: EdgeInsets.all(10),
                   child: Text(
-                    '\$${transactions[index].amount}',
+                    '\$${transactions[index].amount.toStringAsFixed(2)}',
                     style: TextStyle(
                         fontSize: 20,
                         fontWeight: FontWeight.bold,
-                        color: Colors.purple),
+                        color: Theme.of(context).primaryColor),
                   ),
                 ),
                 Column(
@@ -49,7 +49,6 @@ class TransactionList extends StatelessWidget {
               ],
             ),
           );
-
         },
         itemCount: transactions.length,
       ),
